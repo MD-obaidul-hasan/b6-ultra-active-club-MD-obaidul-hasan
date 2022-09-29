@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Item from '../Item/Item';
+import Chart from './Chart/Chart';
 import './Equip.css'
 const Equip = () => {
     const [items, setItems] = useState([]);
@@ -29,8 +30,8 @@ const Equip = () => {
 
             </div>
             <div className='chart-container'>
-<h3>Md.Obaidul Hasan</h3>
-<p>Exersise Time: {chart.length} </p>
+                <Chart chart={chart}></Chart>
+
             </div>
         </div>
     );
