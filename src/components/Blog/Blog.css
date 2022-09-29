@@ -1,0 +1,44 @@
+.blog{
+    width: 90%;
+    /* margin-top: 2200px; */
+    background-color: blueviolet;
+    border-radius:15px 15px 15px 15px;
+    border: none;
+    /* position: absolute; */
+    bottom: 0;
+    margin-left: 5%;
+}
+.b1{
+    width: 90%;
+    /* margin-top: 2200px; */
+    background-color: rgb(43, 226, 189);
+    border-radius:5px 5px 5px 5px;
+    border: none;
+    /* position: absolute; */
+    bottom: 0;
+   
+    margin-left: 5%; 
+    margin-right: 5%;
+}
+.b2{
+    width: 90%;
+    /* margin-top: 2200px; */
+    background-color: rgb(43, 223, 226);
+    border-radius:5px 5px 5px 5px;
+    border: none;
+    /* position: absolute; */
+    bottom: 0;
+    margin-left: 5%; 
+    margin-right: 5%;
+}
+.b3{
+    width: 90%;
+    /* margin-top: 2200px; */
+    background-color: rgb(198, 226, 43);
+    border-radius:5px 5px 5px 5px;
+    border: none;
+    /* position: absolute; */
+    bottom: 0;
+    margin-left: 5%; 
+    margin-right: 5%;
+}
