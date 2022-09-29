@@ -4,7 +4,8 @@ import Chart from './Chart/Chart';
 import './Equip.css'
 const Equip = () => {
     const [items, setItems] = useState([]);
-    const [chart, setChart] = useState([]);
+    const [chart, setChart] = useState(0);
+     const [breakTime, setBreakTime] = useState(0);
 
     useEffect( () =>{
        fetch('items.json') 
@@ -12,11 +13,12 @@ const Equip = () => {
        .then(data => setItems(data))
     },[]);
 
-    const handleAddChart = (iteam) => {
-        console.log(iteam);
-        const newChart = [...chart, iteam];
-        setChart(newChart);
+    const handleAddChart = (time) => {
+        console.log(time);
+    
+        setChart(chart + parseInt(time));
     }
+   
     return (
         <div className='equip-container'>
             <div className="item-container">
@@ -31,7 +33,7 @@ const Equip = () => {
             </div>
             <div className='chart-container'>
                 <Chart chart={chart}></Chart>
-
+                {/* <p> break Time: {breakTime}</p> */}
             </div>
         </div>
     );
