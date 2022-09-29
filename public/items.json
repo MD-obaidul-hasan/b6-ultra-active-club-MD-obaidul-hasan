@@ -2,7 +2,7 @@
     {
         "id": "6334c4f5d7c2cf9513648b15",
         "picture": "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg",
-        "name": "Doumble",
+        "name": "Gym Dumbbells",
         "about": "Lorem mollit eiusmod commodo reprehenderit sint proident consequat ut labore sint pariatur cillum.\r\n",
         "age": 29,
         "time": 23
@@ -10,15 +10,15 @@
     {
         "id": "6334c4f5c8e4741b22580ac0",
         "picture": "https://images.pexels.com/photos/3837754/pexels-photo-3837754.jpeg",
-        "name": "Vera Raymond",
-        "about": "Aute Lorem quis mollit consectetur minim. Esse aliqua non ullamco aliqua aute ea. In dolor labore esse dolore qui aute. \r\n",
+        "name": "Bench - Incline & Decline",
+        "about": "Sold By - Gayatri Musical, Jalna, Maharashtra \r\n",
         "age": 33,
         "time": 13
     },
     {
         "id": "6334c4f5ac69df8d426e1a03",
         "picture": "https://img.etimg.com/thumb/msid-89199209,width-300,imgsize-51168,,resizemode-4,quality-100/working-out-in-the-gym.jpg",
-        "name": "Walsh Maddox",
+        "name": "Automatic Treadmill",
         "about": "Excepteur fugiat elit laboris laboris et mollit fugiat irure ad veniam consequat ut aliqua.\r\n",
         "age": 32,
         "time": 10
@@ -26,7 +26,7 @@
     {
         "id": "6334c4f5b50dabf1ff2598f7",
         "picture": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg",
-        "name": "Lawrence Serrano",
+        "name": "Chest Press Machine",
         "about": "Sint occaecat officia sit laboris et proident minim mollit culpa et occaecat esse ipsum ex.  \r\n",
         "age": 22,
         "time": 30
@@ -34,15 +34,15 @@
     {
         "id": "6334c4f5df62d0a053f1bb02",
         "picture": "https://image.shutterstock.com/image-photo/muscular-bodybuilder-workout-gym-doing-600w-680486686.jpg",
-        "name": "Bradshaw Faulkner",
-        "about": "Amet mollit culpa do velit eiusmod amet tempor id commodo sunt nisi labore anim minim. Duis laboris nulla officia nulla culpa Lorem aliqua consectetur in nisi. \r\n",
+        "name": "Tytax Gym Home Gym",
+        "about": "Merax Adjustable Workout Bench, Folding Utility 600LBS Super Max Weight Bench 6 Position AB Incline Gym Equipment \r\n",
         "age": 22,
         "time": 29
     },
     {
         "id": "6334c4f5aec8b6063f378cc4",
         "picture": "https://image.shutterstock.com/shutterstock/photos/255674527/display_1500/stock-photo-a-young-healthy-athletic-woman-is-relaxing-after-pushing-weight-at-gym-255674527.jpg",
-        "name": "Sanchez Vang",
+        "name": "Weight Bench",
         "about": "Et cillum eiusmod deserunt Lorem sit duis officia ad. Dolore et velit veniam tempor Lorem non officia mollit exercitation. \r\n",
         "age": 30,
         "time": 29
