@@ -1,7 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Chart.css'
 
 const Chart = ({chart}) => {
+    const [breakTime, setBreakTime] = useState(0);
+    const breakList =[
+        {id:1, time:'10sec'},
+        {id:2, time:'15sec'},
+        {id:3, time:'20sec'},
+        {id:4, time:'25sec'},
+        
+    ]
+    
+    useEffect(() =>{
+        const getData= localStorage.getItem('time')
+        if ( getData){
+            setBreakTime(JSON.parse(getData))
+          
+        }
+    },[])
+    const handleBreakTime = (time) => {
+        console.log(time);
+    localStorage.setItem('time',JSON.stringify(time))
+        setBreakTime(time);
+    }
     return (
     <div className='chart'>
             <h3>Md.Obaidul Hasan</h3>
@@ -13,17 +34,19 @@ const Chart = ({chart}) => {
             <div>
                <h3>Exersise Details</h3>
                <p>Exersise Time: {chart} </p>
-               <p>Break Time:</p>
+               <p>Break Time: {breakTime}</p>
             </div>    
         <div>   
             <h2>Add a break</h2>
     
             <p>Break time</p>
                 <div className='btnitems'>
-                  <button  ><p>15</p></button>
-                  <button  ><p>25</p></button>
-                  <button  ><p>30</p></button>
-                  <button  ><p>20</p></button>
+                  
+                  {
+                    breakList.map(item=> <button
+                         key= {item.id} 
+                         onClick={() => handleBreakTime(item.time)}>{item.time}</button>)
+                  }
                 </div> 
             <button className='acbtn'>Activity Compleate</button>    
         </div>

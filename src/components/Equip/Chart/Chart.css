@@ -20,7 +20,7 @@
     width: 15%;
     gap: 20%;
 background-color: rgb(171, 101, 236);
-border-radius:100px 100px 108px 108px;
+border-radius:150px 150px 150px 150px ;
 border: none;
 
 bottom: 0;
@@ -33,7 +33,7 @@ display: flex;
 .acbtn{
     width: 60%;
     margin-top: 200px;
-    background-color: blueviolet;
+    background-color: rgb(29, 187, 240);
     border-radius:150px 150px 150px 150px;
     border: none;
     position: absolute;
