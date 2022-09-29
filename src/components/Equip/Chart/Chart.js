@@ -4,10 +4,10 @@ import './Chart.css'
 const Chart = ({chart}) => {
     const [breakTime, setBreakTime] = useState(0);
     const breakList =[
-        {id:1, time:'10sec'},
-        {id:2, time:'15sec'},
-        {id:3, time:'20sec'},
-        {id:4, time:'25sec'},
+        {id:1, time:'10s'},
+        {id:2, time:'15s'},
+        {id:3, time:'20s'},
+        {id:4, time:'25s'},
         
     ]
     
@@ -27,9 +27,9 @@ const Chart = ({chart}) => {
     <div className='chart'>
             <h3>Md.Obaidul Hasan</h3>
             <div className='charts'>
-                <p href="">weight:66kg</p>
-                <p href="">height:5.6</p>
-                <p href="">age:28</p>
+                <p href="">W:66kg</p>
+                <p href=""> H:5.6</p>
+                <p href="">AGE:28</p>
             </div>
             <div>
                <h3>Exersise Details</h3>
